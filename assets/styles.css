@@ -1,21 +1,3 @@
-/* @font-face {
-  font-family: "BriceLight";
-  src: url('fonts/BriceLight.woff2') format('woff2'),
-       url('fonts/BriceLight.woff') format('woff');
-}
-
-@font-face {
-  font-family: "BriceSemiBold";
-  src: url('fonts/BriceSemiBold.woff2') format('woff2'),
-       url('fonts/BriceSemiBold.woff') format('woff');
-}
-
-@font-face {
-  font-family: "BriceBold";
-  src: url('fonts/BriceBold.woff2') format('woff2'),
-       url('fonts/BriceBold.woff') format('woff');
-} */
-
 .fixed-top {
   z-index: -2;
 }
