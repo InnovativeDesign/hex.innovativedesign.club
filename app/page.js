@@ -17,7 +17,6 @@ export default function Home() {
           </div>
         </div>
           
-
         <div className="flex flex-row  items-center gap-24 ml-32 mr-32">
           <img src="/angel.png" width={360} height={360}></img>
           <div className="flex flex-col">
