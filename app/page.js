@@ -12,9 +12,9 @@ export default function Home() {
             </a>
             <img src="/innod_logo.png" width={340} height={340}></img>
             <div className="flex flex-col items-center self-center">
-              <p class="text-8xl font-bold  inline-block bg-gradient-to-r from-gray-600 to-pink-200 text-transparent bg-clip-text mb-2">HEX</p>
-              <p class="text-4xl font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-2">HONE &amp; EXPLORE</p>
-              <p class="text-2xl font-bold text-white">APRIL 20-21</p>
+              <p class="text-8xl font-bold font-druk inline-block bg-gradient-to-r from-gray-600 to-pink-200 text-transparent bg-clip-text mb-2">HEX</p>
+              <p class="text-4xl font-bold font-druk  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-2">HONE &amp; EXPLORE</p>
+              <p class="text-2xl font-bold font-druk text-white">APRIL 20-21</p>
             </div>
           </div>
           <div className="flex flex-col justify-between">
@@ -27,7 +27,7 @@ export default function Home() {
             <img src="/angel.png" width={360} height={360}></img>
             <div className="flex flex-col">
               <div className="flex flex-row justify-between">
-                <p class="text-6xl font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mt-32 mb-12">ABOUT</p>
+                <p class="text-6xl font-bold font-druk inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mt-32 mb-12">ABOUT</p>
                 <Image className="justify-end" src="/clover.png" width={150} height={150} alt="clover"></Image>
               </div>
               <p class="text-lg font-bold text-white mb-8">Innovative Design presents HEX: Hone & Explore, a weekend of free graphic design, photography, and website design workshops where students can learn various creative skills!</p>
