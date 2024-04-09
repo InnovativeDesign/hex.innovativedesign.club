@@ -2,39 +2,35 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-row items-center justify-between">
-      <div className="flex flex-col bg-black">
-        <div className="flex flex-row justify-between">
-          <img src="/track_shape.png" width={340} height={340}></img>
-          <div className="flex flex-col items-center justify-center">
-            <a href="https://www.innovativedesign.club/" class="inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 hover:from-green-500 hover:via-yellow-500 hover:to-red-500 text-black font-bold py-2 px-4 rounded-full text-center w-56 text-xl">
-              INNOD WEBSITE
-            </a>
-            <img src="/innod_logo.png" width={340} height={340}></img>
-            <div className="flex flex-col items-center self-center">
-              <p class="text-8xl font-bold font-druk inline-block bg-gradient-to-r from-gray-600 to-pink-200 text-transparent bg-clip-text mb-2">HEX</p>
-              <p class="text-4xl font-bold font-druk  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-2">HONE &amp; EXPLORE</p>
-              <p class="text-2xl font-bold font-druk text-white">APRIL 20-21</p>
-            </div>
+    <main className="flex bg-black min-h-screen flex-row justify-between relative">
+      
+      <div className="flex flex-col absolute inset-0 z-10">
+        <div className="flex flex-col items-center justify-center">
+          <a href="https://www.innovativedesign.club/" class="inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 hover:from-green-500 hover:via-yellow-500 hover:to-red-500 text-black font-bold py-2 px-4 rounded-full text-center w-56 text-xl mt-16">
+            INNOD WEBSITE
+          </a>
+          <img src="/innod_logo.png" width={340} height={340}></img>
+          <div className="flex flex-col items-center self-center">
+            <p class="text-8xl font-bold  inline-block bg-gradient-to-r from-gray-600 to-pink-200 text-transparent bg-clip-text mb-2">HEX</p>
+            <p class="text-4xl font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-2">HONE &amp; EXPLORE</p>
+            <p class="text-2xl font-bold text-white mb-32">APRIL 20-21</p>
           </div>
-          <div className="flex flex-col justify-between">
-            <Image className="" src="/horiz_track_1.png" width={340} height={340} alt="track"></Image>
-            <Image src="/barcode_head.png" width={340} height={340} alt="barcode"></Image>
-          </div>
-          
         </div>
-          <div className="flex flex-row gap-24 ml-16 mr-16">
-            <img src="/angel.png" width={360} height={360}></img>
-            <div className="flex flex-col">
-              <div className="flex flex-row justify-between">
-                <p class="text-6xl font-bold font-druk inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mt-32 mb-12">ABOUT</p>
-                <Image className="justify-end" src="/clover.png" width={150} height={150} alt="clover"></Image>
-              </div>
-              <p class="text-lg font-bold text-white mb-8">Innovative Design presents HEX: Hone & Explore, a weekend of free graphic design, photography, and website design workshops where students can learn various creative skills!</p>
-              <p class="text-lg font-bold text-white mb-8">The event is open to all students, alumni, friends, and family - with no experience necessary.</p>
-              <p class="text-lg font-bold text-white mb-8">Workshops are 1-hour long, running from 12:00 PM - 6:00 PM PST on Saturday, April 20 and Sunday, April 21 in Social Sciences 20.</p>
+          
+        <div className="flex flex-row  items-center gap-24 ml-32 mr-32">
+          <img src="/angel.png" width={360} height={360}></img>
+          <div className="flex flex-col">
+            <div className="flex flex-row justify-between items-center">
+              <p class="text-6xl font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mt-32 mb-12">ABOUT</p>
+              <Image className="justify-end mt-12" src="/clover.png" width={100} height={100} alt="clover"></Image>
             </div>
+            <p class="text-lg font-bold text-white mb-8">Innovative Design presents HEX: Hone & Explore, a weekend of free graphic design, photography, and website design workshops where students can learn various creative skills!</p>
+            <p class="text-lg font-bold text-white mb-8">The event is open to all students, alumni, friends, and family - with no experience necessary.</p>
+            <p class="text-lg font-bold text-white">Workshops are 1-hour long, running from 12:00 PM - 6:00 PM PST on Saturday, April 20 and Sunday, April 21 in Social Sciences 20.</p>
+            <img src="/spikey line.png" width={120} height={120}></img>
           </div>
+        </div>
+
         <div className="flex flex-col items-center justify-center">
           <div className="flex flex-row space-x-56">
             <img src="/checker.png" width={200} height={200}></img>
@@ -46,40 +42,34 @@ export default function Home() {
               <div className="flex flex-col">
                 <p class="text-4xl font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SAT, APRIL 20</p>
                 <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Intro to Figma</p>
-                  <p class="text-xl font-bold text-white mb-1">1:00 - 2:00</p>
-                  <p class="text-xl font-bold text-white mb-1">August O, Katy N, Rachel L</p>
-                  <p class="text-xl text-white mb-2">MATERIALS NEEDED: Laptop & Figma</p>
+                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Intro to Figma</p>
+                  <p class="text-lg font-bold text-white">1:00 - 2:00</p>
+                  <p class="text-lg font-bold text-white">August O, Katy N, Rachel L</p>
+                  <p class="text-lg text-white mb-2">MATERIALS NEEDED: Laptop & Figma</p>
                 </div>
                 <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Lightroom Workshop: Masking</p>
-                  <p class="text-xl font-bold text-white mb-1">2:00 - 3:00</p>
-                  <p class="text-xl font-bold text-white mb-1">Eric Y & Matt S</p>
-                  <p class="text-xl text-white mb-2">MATERIALS NEEDED: Laptop & Lightroom</p>
+                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Lightroom Workshop: Masking</p>
+                  <p class="text-lg font-bold text-white">2:00 - 3:00</p>
+                  <p class="text-lg font-bold text-white">Eric Y & Matt S</p>
+                  <p class="text-lg text-white mb-2">MATERIALS NEEDED: Laptop & Lightroom</p>
                 </div>
                 <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Branding and Mockups 101</p>
-                  <p class="text-xl font-bold text-white mb-1">3:00 - 4:00</p>
-                  <p class="text-xl font-bold text-white mb-1">Patricia S</p>
-                  <p class="text-xl text-white mb-2">MATERIALS NEEDED: Adobe Illustrator & Photoshop</p>
+                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Branding and Mockups 101</p>
+                  <p class="text-lg font-bold text-white">3:00 - 4:00</p>
+                  <p class="text-lg font-bold text-white">Patricia S</p>
+                  <p class="text-lg text-white mb-2">MATERIALS NEEDED: Adobe Illustrator & Photoshop</p>
                 </div>
                 <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Illuminate Your Creativity</p>
-                  <p class="text-xl font-bold text-white mb-1">4:00 - 5:00</p>
-                  <p class="text-xl font-bold text-white mb-1">James N</p>
-                  <p class="text-xl text-white mb-2">MATERIALS NEEDED: Camera & Light Source</p>
+                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Illuminate Your Creativity</p>
+                  <p class="text-lg font-bold text-white">4:00 - 5:00</p>
+                  <p class="text-lg font-bold text-white">James N</p>
+                  <p class="text-lg text-white mb-2">MATERIALS NEEDED: Camera & Light Source</p>
                 </div>
                 <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Intro to Film Photography</p>
-                  <p class="text-xl font-bold text-white mb-1">5:00 - 6:00</p>
-                  <p class="text-xl font-bold text-white mb-1">Lucio Y</p>
-                  <p class="text-xl text-white mb-2">MATERIALS NEEDED: None</p>
-                </div>
-                <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">WORKSHOP NAME 6</p>
-                  <p class="text-xl font-bold text-white mb-1">00:00 - 00:00</p>
-                  <p class="text-xl font-bold text-white mb-1">INSTRUCTOR NAME</p>
-                  <p class="text-xl text-white mb-2">MATERIALS NEEDED: Material</p>
+                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Intro to Film Photography</p>
+                  <p class="text-lg font-bold text-white">5:00 - 6:00</p>
+                  <p class="text-lg font-bold text-white">Lucio Y</p>
+                  <p class="text-lg text-white mb-2">MATERIALS NEEDED: None</p>
                 </div>
               </div>
               
@@ -132,6 +122,15 @@ export default function Home() {
             <img src="car.png" width={500} height={500}></img>
             <Image src="/hazard_texture.png" width={300} height={100} alt="hazard"></Image>
           </div>
+        </div>
+      </div>
+      <div className="flex flex-row justify-between absolute inset-0 z-0">
+        <div>
+          <img className="mt-16 ml-16" src="/track_shape.png" width={280} height={280}></img>
+        </div>
+        <div>
+          <Image className="" src="/horiz_track_1.png" width={340} height={340} alt="track"></Image>
+          <Image src="/barcode_head.png" width={500} height={500} alt="barcode"></Image>
         </div>
       </div>
     </main>
