@@ -13,6 +13,11 @@
   src: url("../fonts/DrukWide/DrukTextWide-Medium-Trial.otf");
 }
 
+@font-face {
+  font-family: Vivaldi;
+  src: url("../fonts/Vivaldi.ttf");
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {

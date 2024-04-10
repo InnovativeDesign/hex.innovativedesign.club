@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         druk: ['Druk', 'san-serif'],
+        vivaldi: ['Vivaldi', 'san-serif'],
       },
     },
   },
