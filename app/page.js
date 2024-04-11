@@ -40,77 +40,77 @@ export default function Home() {
             <img className="hidden lg:inline-flex" src="vert_track.png" width={180} height={60}></img>
             <div className="flex flex-col lg:flex-row lg:gap-24">
               <div className="flex flex-col p-10">
-                <p class="text-4xl font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SAT, APRIL 20</p>
+                <p class="text-4xl m-auto font-druk font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SAT, APRIL 20</p>
                 <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Intro to Figma</p>
-                  <p class="text-lg font-bold text-white">1:00 - 2:00</p>
-                  <p class="text-lg font-bold text-white">August O, Katy N, Rachel L</p>
-                  <p class="text-lg text-white mb-2">MATERIALS NEEDED: Laptop & Figma</p>
+                  <p class="text-2xl font-druk font-bold inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">INTRO TO FIGMA</p>
+                  <p class="text-lg font-druk font-bold text-white">1:00 - 2:00</p>
+                  <p class="text-lg font-druk font-bold text-white">August O, Katy N, Rachel L</p>
+                  <p class="text-lg font-vivaldi text-white mb-2">Materials: Laptop & Figma</p>
+                </div>
+                <div className="flex font-druk flex-col mb-12">
+                  <p class="text-2xl font-druk font-bold inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">LIGHTROOM WORKSHOP: MASKING</p>
+                  <p class="text-lg font-druk font-bold text-white">2:00 - 3:00</p>
+                  <p class="text-lg font-druk font-bold text-white">Eric Y & Matt S</p>
+                  <p class="text-lg font-vivaldi text-white mb-2">Materials: Laptop & Lightroom</p>
                 </div>
                 <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Lightroom Workshop: Masking</p>
-                  <p class="text-lg font-bold text-white">2:00 - 3:00</p>
-                  <p class="text-lg font-bold text-white">Eric Y & Matt S</p>
-                  <p class="text-lg text-white mb-2">MATERIALS NEEDED: Laptop & Lightroom</p>
+                  <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">BRANDING AND MOCKUPS 101</p>
+                  <p class="text-lg font-druk font-bold text-white">3:00 - 4:00</p>
+                  <p class="text-lg font-druk font-bold text-white">Patricia S</p>
+                  <p class="text-lg font-vivaldi text-white mb-2">Materials: Adobe Illustrator & Photoshop</p>
                 </div>
                 <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Branding and Mockups 101</p>
-                  <p class="text-lg font-bold text-white">3:00 - 4:00</p>
-                  <p class="text-lg font-bold text-white">Patricia S</p>
-                  <p class="text-lg font-vivaldi text-white mb-2">Materials Needed: Adobe Illustrator & Photoshop</p>
+                  <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">ILLUMINATE YOUR CREATIVITY</p>
+                  <p class="text-lg font-druk font-bold text-white">4:00 - 5:00</p>
+                  <p class="text-lg font-druk font-bold text-white">James N</p>
+                  <p class="text-lg font-vivaldi text-white mb-2">Materials: Camera & Light Source</p>
                 </div>
                 <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Illuminate Your Creativity</p>
-                  <p class="text-lg font-bold text-white">4:00 - 5:00</p>
-                  <p class="text-lg font-bold text-white">James N</p>
-                  <p class="text-lg text-white mb-2">MATERIALS NEEDED: Camera & Light Source</p>
-                </div>
-                <div className="flex flex-col mb-12">
-                  <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">Intro to Film Photography</p>
-                  <p class="text-lg font-bold text-white">5:00 - 6:00</p>
-                  <p class="text-lg font-bold text-white">Lucio Y</p>
-                  <p class="text-lg text-white mb-2">MATERIALS NEEDED: None</p>
+                  <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">INTRO TO FILM PHOTOGRAPHY</p>
+                  <p class="text-lg font-druk font-bold text-white">5:00 - 6:00</p>
+                  <p class="text-lg font-druk font-bold text-white">Lucio Y</p>
+                  <p class="text-lg font-vivaldi text-white mb-2">Materials: N/A</p>
                 </div>
               </div>
               
               <div className="flex flex-row">
                 <div className="flex flex-col p-10">
-                  <p class="text-4xl font-bold inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SUN, APRIL 21</p>
+                  <p class="text-4xl m-auto font-druk font-bold inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SUN, APRIL 21</p>
                   <div className="flex flex-col mb-12">
-                    <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Collaborative Zine Making</p>
-                    <p class="text-xl font-bold text-white mb-1">12:00 - 1:00</p>
-                    <p class="text-xl font-bold text-white mb-1">Paloma B</p>
-                    <p class="text-xl text-white mb-2">MATERIALS NEEDED: Markers, Magazines, Scissors & Glue</p>
+                    <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">COLLABORATIVE ZINE MAKING</p>
+                    <p class="text-xl font-druk font-bold text-white">12:00 - 1:00</p>
+                    <p class="text-xl font-druk font-bold text-white">Paloma B</p>
+                    <p class="text-xl font-vivaldi text-white mb-2">Materials: Markers, Magazines, Scissors & Glue</p>
                   </div>
                   <div className="flex flex-col mb-12">
-                    <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Intro to 3D Modeling: Maya!</p>
-                    <p class="text-xl font-bold text-white mb-1">1:00 - 2:00</p>
-                    <p class="text-xl font-bold text-white mb-1">Linda Z</p>
-                    <p class="text-xl text-white mb-2">MATERIALS NEEDED: Maya, Adobe Photoshop</p>
+                    <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">INTRO TO 3D MODELING: MAYA!</p>
+                    <p class="text-xl font-druk font-bold text-white">1:00 - 2:00</p>
+                    <p class="text-xl font-druk font-bold text-white">Linda Z</p>
+                    <p class="text-xl font-vivaldi text-white mb-2">Materials: Maya, Adobe Photoshop</p>
                   </div>
                   <div className="flex flex-col mb-12">
-                    <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Unlocking Your Artistic Potential</p>
-                    <p class="text-xl font-bold text-white mb-1">2:00 - 3:00</p>
-                    <p class="text-xl font-bold text-white mb-1">Arahan L & Kaitlyn E-S</p>
-                    <p class="text-xl text-white mb-2">MATERIALS NEEDED: Laptop</p>
+                    <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">UNLOCKING YOUR ARTISTIC POTENTIAL</p>
+                    <p class="text-xl font-druk font-bold text-white">2:00 - 3:00</p>
+                    <p class="text-xl font-druk font-bold text-white">Arahan L & Kaitlyn E-S</p>
+                    <p class="text-xl font-vivaldi text-white mb-2">Materials: Laptop</p>
                   </div>
                   <div className="flex flex-col mb-12">
-                    <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Intro to Adobe After Effects</p>
-                    <p class="text-xl font-bold text-white mb-1">3:00 - 40:00</p>
-                    <p class="text-xl font-bold text-white mb-1">Linda L & Megan A</p>
-                    <p class="text-xl text-white mb-2">MATERIALS NEEDED: Laptop & Adobe After Effects</p>
+                    <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">INTRO TO ADOBE AFTER EFFECTS</p>
+                    <p class="text-xl font-druk font-bold text-white mb-1">3:00 - 40:00</p>
+                    <p class="text-xl font-druk font-bold text-white mb-1">Linda L & Megan A</p>
+                    <p class="text-xl font-vivaldi text-white mb-2">Materials: Laptop & Adobe After Effects</p>
                   </div>
                   <div className="flex flex-col mb-12">
-                    <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">The Photography Storytelling Workshop</p>
-                    <p class="text-xl font-bold text-white mb-1">4:00 - 5:00</p>
-                    <p class="text-xl font-bold text-white mb-1">Elena H & Kyle GT</p>
-                    <p class="text-xl text-white mb-2">MATERIALS NEEDED: N/A</p>
+                    <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">THE PHOTOGRAPHY STORYTELLING WORKSHOP</p>
+                    <p class="text-xl font-druk font-bold text-white">4:00 - 5:00</p>
+                    <p class="text-xl font-druk font-bold text-white">Elena H & Kyle GT</p>
+                    <p class="text-xl font-vivaldi text-white mb-2">Materials: N/A</p>
                   </div>
                   <div className="flex flex-col mb-12">
-                    <p class="text-2xl font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">Fix it in Post: Basics of Premiere Pro</p>
-                    <p class="text-xl font-bold text-white mb-1">5:00 - 6:00</p>
-                    <p class="text-xl font-bold text-white mb-1">Daniel L & Gerry R</p>
-                    <p class="text-xl text-white mb-2">MATERIALS NEEDED: Adobe Premiere Pro</p>
+                    <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">FIX IT IN POST: BASICS OF PREMIERE PRO</p>
+                    <p class="text-xl font-druk font-bold text-white">5:00 - 6:00</p>
+                    <p class="text-xl font-druk font-bold text-white">Daniel L & Gerry R</p>
+                    <p class="text-xl font-vivaldi text-white mb-2">Materials: Adobe Premiere Pro</p>
                   </div>
                 </div>
                 <div className="flex flex-col space-y-64">
