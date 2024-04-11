@@ -9,7 +9,7 @@ export default function Home() {
           <a href="https://www.innovativedesign.club/" className="font-druk inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 hover:from-green-500 hover:via-yellow-500 hover:to-red-500 text-black font-bold py-2 px-4 rounded-full text-center w-56 text-lg mt-16">
             INNOD WEBSITE
           </a>
-          <Image src="/innod_logo.png" alt="logo" width={340} height={340}></Image>
+          <Image src="/innod_logo.png" alt="logo" width="340" height="340"></Image>
           <div className="flex flex-col items-center self-center">
             <p className="text-8xl font-bold font-druk inline-block bg-gradient-to-r from-gray-600 to-pink-200 text-transparent bg-clip-text mb-2">HEX</p>
             <p className="text-4xl font-bold font-druk inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-2">HONE &amp; EXPLORE</p>
@@ -18,16 +18,16 @@ export default function Home() {
         </div>
           
         <div className="flex flex-row items-center gap-24 min-w-screen bg-black">
-          <Image hidden alt="angel" className="lg:inline-block" src="/angel.png" width={360} height={360}></Image>
+          <Image hidden alt="angel" className="lg:inline-block" src="/angel.png" width="360" height="360"></Image>
           <div className="flex flex-col p-8">
             <div className="flex flex-row justify-between items-center">
               <p className="text-6xl font-bold font-druk inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mt-32 mb-12">ABOUT</p>
-              <Image className="mt-12" src="/clover.png" width={100} height={100} alt="clover"></Image>
+              <Image className="mt-12" src="/clover.png" width="100" height="100" alt="clover"></Image>
             </div>
             <p className="text-lg font-druk font-bold text-white mb-8">Innovative Design presents HEX: Hone & Explore, a weekend of free graphic design, photography, and website design workshops where students can learn various creative skills!</p>
             <p className="text-lg font-druk font-bold text-white mb-8">The event is open to all students, alumni, friends, and family - with no experience necessary.</p>
             <p className="text-lg font-druk font-bold text-white">Workshops are 1-hour long, running from 12:00 PM - 6:00 PM PST on Saturday, April 20 and Sunday, April 21 in Social Sciences 20.</p>
-            <Image src="/spikeyline.png" alt="spike" width={120} height={120}></Image>
+            <Image src="/spikeyline.png" alt="spike" width="120" height="120"></Image>
           </div>
         </div>
 
@@ -37,7 +37,7 @@ export default function Home() {
             <p className="text-5xl lg:text-6xl font-druk font-bold bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SCHEDULE</p>
           </div>
           <div className="flex flex-col place-self-center lg:flex-row">
-            <Image alt="vert" className="hidden lg:inline-flex" src="/vert_track.png" width={120} height={10}></Image>
+            <Image alt="vert" className="hidden lg:inline-flex" src="/vert_track.png" width="120" height="10"></Image>
             <div className="flex flex-col lg:flex-row lg:gap-24">
               <div className="flex flex-col p-10">
                 <p className="text-4xl font-druk font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SAT, APRIL 20</p>
@@ -114,26 +114,26 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex flex-col space-y-64">
-                  <Image alt="web" src="/web.png" width={250} height={250}></Image>
-                  <Image alt="chain" src="/globe_chain.png" width={250} height={250}></Image>
+                  <Image alt="web" src="/web.png" width="250" height="250"></Image>
+                  <Image alt="chain" src="/globe_chain.png" width="250" height="250"></Image>
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-row space-x-96">
-            <Image alt="car" src="/car.png" width={500} height={500}></Image>
-            <Image src="/hazard_texture.png" width={500} height={100} alt="hazard"></Image>
+            <Image alt="car" src="/car.png" width="500" height="500"></Image>
+            <Image src="/hazard_texture.png" width="500" height="100" alt="hazard"></Image>
           </div>
         </div>
       </div>
 
       <div className="flex flex-row justify-between absolute inset-0 z-0">
         <div>
-          <Image alt="track" className="mt-16 ml-16" src="/track_shape.png" width={280} height={280}></Image>
+          <Image alt="track" className="mt-16 ml-16" src="/track_shape.png" width="280" height="280"></Image>
         </div>
         <div className="">
-          <Image className="" src="/horiz_track_1.png" width={340} height={340} alt="track"></Image>
-          <Image src="/barcode_head.png" width={500} height={500} alt="barcode"></Image>
+          <Image className="" src="/horiz_track_1.png" width="340" height="340" alt="track"></Image>
+          <Image src="/barcode_head.png" width="500" height="500" alt="barcode"></Image>
         </div>
       </div>
 
