@@ -34,13 +34,13 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center bg-black">
           <div className="flex flex-row space-x-56">
             {/* <img className="hidden lg:inline-flex" src="/checker.png" width={200} height={200}></img> */}
-            <p class="text-5xl lg:text-6xl font-druk font-bold bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mt-24 mb-12">SCHEDULE</p>
+            <p class="text-5xl lg:text-6xl font-druk font-bold bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SCHEDULE</p>
           </div>
           <div className="flex flex-col place-self-center lg:flex-row">
-            <img className="hidden lg:inline-flex" src="vert_track.png" width={180} height={60}></img>
+            <img className="hidden lg:inline-flex" src="vert_track.png" width={120} height={10}></img>
             <div className="flex flex-col lg:flex-row lg:gap-24">
               <div className="flex flex-col p-10">
-                <p class="text-4xl m-auto font-druk font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SAT, APRIL 20</p>
+                <p class="text-4xl font-druk font-bold  inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SAT, APRIL 20</p>
                 <div className="flex flex-col mb-12">
                   <p class="text-2xl font-druk font-bold inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">INTRO TO FIGMA</p>
                   <p class="text-lg font-druk font-bold text-white">1:00 - 2:00</p>
@@ -75,7 +75,7 @@ export default function Home() {
               
               <div className="flex flex-row">
                 <div className="flex flex-col p-10">
-                  <p class="text-4xl m-auto font-druk font-bold inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SUN, APRIL 21</p>
+                  <p class="text-4xl font-druk font-bold inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SUN, APRIL 21</p>
                   <div className="flex flex-col mb-12">
                     <p class="text-2xl font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text mb-1">COLLABORATIVE ZINE MAKING</p>
                     <p class="text-xl font-druk font-bold text-white">12:00 - 1:00</p>
