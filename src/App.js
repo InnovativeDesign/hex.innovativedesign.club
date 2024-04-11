@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
             <a href="https://www.innovativedesign.club/" class="font-druk inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 hover:from-green-500 hover:via-yellow-500 hover:to-red-500 text-black font-bold py-2 px-4 rounded-full text-center w-56 text-base mt-16">
               INNOD WEBSITE
             </a>
-            <img src="/innod_logo.png" width={340} height={340}></img>
+            <img src="/innod_logo.png" alt="logo" width={340} height={340}></img>
             <div className="flex flex-col items-center self-center">
               <p class="text-8xl font-bold font-druk inline-block bg-gradient-to-r from-gray-600 to-pink-200 text-transparent bg-clip-text mb-2">HEX</p>
               <p class="text-4xl font-bold font-druk inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-2">HONE &amp; EXPLORE</p>
@@ -19,7 +18,7 @@ function App() {
           </div>
             
           <div className="flex flex-row items-center gap-24 min-w-screen bg-[#141414]">
-            <img hidden className="lg:inline-block" src="/angel.png" width={360} height={360}></img>
+            <img hidden alt="angel" className="lg:inline-block" src="/angel.png" width={360} height={360}></img>
             <div className="flex flex-col p-8">
               <div className="flex flex-row justify-between items-center">
                 <p class="text-6xl font-bold font-druk inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mt-32 mb-12">ABOUT</p>
@@ -28,7 +27,7 @@ function App() {
               <p class="text-lg font-druk font-bold text-white mb-8">Innovative Design presents HEX: Hone & Explore, a weekend of free graphic design, photography, and website design workshops where students can learn various creative skills!</p>
               <p class="text-lg font-druk font-bold text-white mb-8">The event is open to all students, alumni, friends, and family - with no experience necessary.</p>
               <p class="text-lg font-druk font-bold text-white">Workshops are 1-hour long, running from 12:00 PM - 6:00 PM PST on Saturday, April 20 and Sunday, April 21 in Social Sciences 20.</p>
-              <img src="/spikeyline.png" width={120} height={120}></img>
+              <img alt="spike" src="/spikeyline.png" width={120} height={120}></img>
             </div>
           </div>
           <div className="flex flex-col justify-center items-center bg-[#141414]">
@@ -115,19 +114,19 @@ function App() {
             </div>
             
             <div className="flex flex-row justify-center absolute items-center z-0 space-x-96">
-              <img className="pb-80 hidden lg:inline-flex mt-14" src="vert_track.png" width={120} height={10}></img>
-              <img className="pt-80 mt-80" src="globe_chain.png" width={250} height={250}></img>
-              <img className="pb-80 mb-96" src="web.png" width={250} height={250}></img>
+              <img alt="track" className="pb-80 hidden lg:inline-flex mt-14" src="vert_track.png" width={120} height={10}></img>
+              <img alt="globe" className="pt-80 mt-80" src="globe_chain.png" width={250} height={250}></img>
+              <img alt="web" className="pb-80 mb-96" src="web.png" width={250} height={250}></img>
             </div>
             <div className="flex flex-row items-center space-x-96">
-              <img src="/car.png" width={500} height={500}></img>
+              <img alt="car" src="/car.png" width={500} height={500}></img>
               <img src="/hazard_texture.png" width={500} height={100} alt="hazard"></img>
             </div>
           </div>
           
         </div>
         <div className="flex flex-row justify-between absolute items-center inset-0 z-0">
-          <img className="mt-16 ml-16" src="/track_shape.png" width={280} height={280}></img>
+          <img alt="track" className="mt-16 ml-16" src="/track_shape.png" width={280} height={280}></img>
           <div className="flex flex-col justify-between items-center">
             <img className="" src="/horiz_track_1.png" width={340} height={340} alt="track"></img>
             <img src="/barcode_head.png" width={500} height={500} alt="barcode"></img>
