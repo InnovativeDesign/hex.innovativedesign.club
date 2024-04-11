@@ -17,12 +17,12 @@ export default function Home() {
           </div>
         </div>
           
-        <div className="flex flex-row items-center gap-24 ml-32 mr-32 min-w-screen bg-black">
+        <div className="flex flex-row items-center gap-24 min-w-screen bg-black">
           <img hidden className="lg:inline-block" src="/angel.png" width={360} height={360}></img>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-8">
             <div className="flex flex-row justify-between items-center">
               <p class="text-6xl font-bold font-druk inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mt-32 mb-12">ABOUT</p>
-              <Image className="justify-end mt-12" src="/clover.png" width={100} height={100} alt="clover"></Image>
+              <Image className="mt-12" src="/clover.png" width={100} height={100} alt="clover"></Image>
             </div>
             <p class="text-lg font-druk font-bold text-white mb-8">Innovative Design presents HEX: Hone & Explore, a weekend of free graphic design, photography, and website design workshops where students can learn various creative skills!</p>
             <p class="text-lg font-druk font-bold text-white mb-8">The event is open to all students, alumni, friends, and family - with no experience necessary.</p>
