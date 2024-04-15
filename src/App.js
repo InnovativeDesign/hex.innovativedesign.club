@@ -26,7 +26,7 @@ function App() {
               </div>
               <p class="text-lg font-druk font-bold text-white mb-8">Innovative Design presents HEX: Hone & Explore, a weekend of free graphic design, photography, and website design workshops where students can learn various creative skills!</p>
               <p class="text-lg font-druk font-bold text-white mb-8">The event is open to all students, alumni, friends, and family - with no experience necessary.</p>
-              <p class="text-lg font-druk font-bold text-white">Workshops are 1-hour long, running from 12:00 PM - 6:00 PM PST on Saturday, April 20 in Social Sciences 20 and Sunday, April 21 in Social Sciences 20.</p>
+              <p class="text-lg font-druk font-bold text-white">Workshops are 1-hour long, running from 12:00 PM - 6:00 PM PST on Saturday, April 20 in Social Sciences 20 and Sunday, April 21 in Social Sciences 56.</p>
               <img alt="spike" src="/spikeyline.png" width={120} height={120}></img>
             </div>
           </div>
