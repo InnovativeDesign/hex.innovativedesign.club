@@ -35,7 +35,8 @@ function App() {
             <div className="flex flex-col items-center place-self-center lg:flex-row">
               <div className="flex flex-col lg:flex-row lg:gap-16">
                 <div className="flex flex-col w-96 z-10">
-                  <p class="text-4xl font-druk font-bold inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SAT, APRIL 20</p>
+                  <p class="text-4xl font-druk font-bold inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-1">SAT, APRIL 20</p>
+                  <p class="text-2xl font-druk font-bold text-white mb-12">SOCS 20</p>
                   <div className="flex flex-col mb-12">
                     <p class="text-xl font-druk font-bold inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">INTRO TO FIGMA</p>
                     <p class="text-base font-druk text-white">1:00 - 2:00</p>
@@ -70,7 +71,8 @@ function App() {
                 
                 <div className="flex flex-row z-10">
                   <div className="flex flex-col w-96">
-                    <p class="text-4xl font-druk font-bold inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-12">SUN, APRIL 21</p>
+                    <p class="text-4xl font-druk font-bold inline-block bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 text-transparent bg-clip-text mb-1">SUN, APRIL 21</p>
+                    <p class="text-2xl font-druk font-bold text-white mb-12">SOCS 56</p>
                     <div className="flex flex-col mb-12">
                       <p class="text-lg font-druk font-bold  inline-block bg-gradient-to-r from-gray-400 to-pink-200 text-transparent bg-clip-text">COLLABORATIVE ZINE MAKING</p>
                       <p class="text-base font-druk font-bold text-white">12:00 - 1:00</p>
